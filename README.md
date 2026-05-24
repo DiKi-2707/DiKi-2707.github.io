@@ -1,2 +1,2 @@
 # Eduard.github.io
-Сайт визитка HTML, CSS
+Personal portfolio website (HTML, CSS, JS)
