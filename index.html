@@ -1,256 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="./normalize.css" rel="stylesheet" />
-  <link href="./style.css" rel="stylesheet" />
-  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-  <meta
-  name="description"
-  content="Portfolio Эдуарда Дрягина — QA Engineer. API testing, Postman, SQL, Cypress, Pytest." />
-  <meta name="theme-color" content="#020617" />
-  <title>Эдуард Дрягин — QA Engineer</title>
+<html lang="ru">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Эдуард Дрягин — Junior QA Engineer. API, Postman, SQL, Cypress, Pytest">
+  <meta property="og:title" content="Эдуард Дрягин — QA Engineer">
+  <meta property="og:description" content="Портфолио Junior QA Engineer">
+  <title>Эдуард Дрягин — QA Engineer</title>
+  <meta name="description" content="Eduard Driagin — Junior QA Engineer. API, Postman, SQL, Cypress, Pytest">
+  <meta property="og:title" content="Eduard Driagin — QA Engineer Portfolio">
+  <meta property="og:description" content="Junior QA Engineer · API Testing · Automation · Moscow">
+  <meta property="og:image" content="./avatar.png">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="cursor-glow"></div>
   <div class="page-light"></div>
 
   <nav class="navbar">
     <div class="navbar__logo">ED</div>
-
     <div class="navbar__links">
-      <a href="#stack">Stack</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
-      <a href="#contacts">Contacts</a>
+      <a href="#stack">Stack</a>
+      <a href="#contacts">Contact</a>
     </div>
-    <div class="navbar__status">
-      ● Open to work
-    </div>
+    <div class="navbar__status">● Open to offers</div>
   </nav>
 
-  <header class="header animate delay-1">
-    <img src="./avatar.png" alt="avatar" class="header__avatar" />
-
-    <div class="hero">
-      <p class="hero__badge">WEB · API TESTING · BUG ANALYSIS</p>
-
+  <!-- HERO -->
+  <header class="header">
+    <img src="./avatar.png" alt="Эдуард Дрягин" class="header__avatar animate delay-1">
+    <div class="hero animate delay-2">
+      <span class="hero__badge">QA ENGINEER · API · AUTOMATION</span>
       <h1 class="header__title">Эдуард Дрягин</h1>
-
-      <h3 class="header__subtitle">Manual QA Engineer</h3>
-
+      <p class="header__subtitle">Junior QA Engineer</p>
       <p class="hero__description">
-        Тестирую веб-приложения, изучаю API, DevTools и тестовую документацию.
-        Развиваюсь в направлении QA Engineering и автоматизации тестирования.
+        Тестирую веб-приложения и API. Пишу автотесты на JavaScript (Cypress) и Python (Pytest).
+        Уверенно работаю с Postman, SQL, логами и CI/CD. Ищу команду, где смогу приносить пользу и расти как инженер.
       </p>
-
       <div class="hero__buttons">
-        <a href="https://t.me/Edward_what" class="hero__button">
-          Telegram
-        </a>
-
-        <a href="./cv.pdf" class="hero__button hero__button-secondary" download>
-          Download CV
-        </a>
+        <a href="https://t.me/Edward_what" class="hero__button">Telegram</a>
+        <a href="./cv.pdf" class="hero__button hero__button-secondary">Download CV</a>
       </div>
     </div>
   </header>
-  <main>
-    <section id="contacts" class="links reveal">
-      <h2 class="links__header">Контакты</h2>
-      <ul class="links__container">
-        <li class="links__link">
-          <p class="links__title">VK</p>
-          <a class="linsk__link" href="https://vk.com/e.dryagin">e.dryagin</a>
-        </li>
-        <li class="links__link">
-          <p class="links__title">Email</p>
-          <a class="linsk__link" href="mailto:edik.drgin@mail.ru">edik.drgin@mail.ru</a>
-          <li class="links__link">
-            <p class="links__title">GitHub</p>
-            <a class="linsk__link" href="http://github.com/DiKi-2707/">github.com/DiKi-2707/</a>
-          </li>
-        </ul>
-        <section id="stack" class="stack-section reveal">
-          <h2 class="links__header">Tech Stack</h2>
 
-          <div class="stack">
-            <div class="stack__item">Postman</div>
-            <div class="stack__item">DevTools</div>
-            <div class="stack__item">Jira</div>
-            <div class="stack__item">Swagger</div>
-            <div class="stack__item">Charles Proxy</div>
-            <div class="stack__item">GitHub</div>
-            <div class="stack__item">HTML/CSS</div>
-            <div class="stack__item">API</div>
-            <div class="stack__item">SQL</div>
-            <div class="stack__item">Linux</div>
-            <div class="stack__item">Test IT</div>
-            <div class="stack__item">Bug Reports</div>
-            <div class="stack__item">Kibana</div>
-            <div class="stack__item">Sentry</div>
-            <div class="stack__item">Grafana</div>
-            <div class="stack__item">Yandex Tracker</div>
-          </div>
-        </section>
+  <!-- EXPERIENCE -->
+  <section id="experience" class="timeline reveal">
+    <h2 class="links__header">Experience & Education</h2>
+    <div class="timeline__container">
+      <div class="timeline__item">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <h3>QA Studio — Инженер по тестированию</h3>
+          <p>
+            Ежедневная работа в Yandex Tracker. Тестирование REST/SOAP API в Postman (коллекции, скрипты, Mock Server).
+            Написание SQL/NoSQL запросов в PostgreSQL и MongoDB. Просмотр логов через SSH, <code>tail -f</code> и
+            <code>docker logs</code>.
+            Настройка CI через GitHub Actions. Работа с Apache Kafka, Stage-окружением, мобильными приложениями (push,
+            диплинки, Firebase).
+            Автотесты: UI на Cypress (JS), API на Pytest (Python).
+          </p>
+          <span>Февраль 2026 — Май 2026</span>
+        </div>
+      </div>
+      <div class="timeline__item">
+        <div class="timeline__dot"></div>
+        <div class="timeline__content">
+          <h3>УрФУ — Бакалавр</h3>
+          <p>
+            Физико-технологический институт.<br>
+            Информационные системы и технологии.
+          </p>
+          <span>2020 — 2024</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <section class="timeline reveal">
-          <section class="timeline reveal">
-            <h2 class="links__header">Experience</h2>
+  <!-- ABOUT -->
+  <section id="about" class="stack-section reveal">
+    <h2 class="links__header">About</h2>
+    <div class="links__container">
+      <p class="hero__description" style="margin: 0 0 16px 0;">
+        Спокойный, открытый и системный. По-хорошему дотошный: обращаю внимание на детали, соблюдаю сроки, слежу за
+        качеством.
+      </p>
+      <p class="hero__description" style="margin: 0 0 16px 0;">
+        Не токсик — умею договариваться и слышать команду. Критику и правки воспринимаю как часть рабочего процесса, а
+        не как личное.
+      </p>
+      <p class="hero__description" style="margin: 0; font-style: italic; color: #cbd5f5;">
+        «Жизнь — как вождение велосипеда. Чтобы сохранить равновесие, ты должен двигаться» 🚴
+      </p>
+    </div>
+  </section>
 
-            <div class="timeline__container">
 
-              <div class="timeline__item">
-                <div class="timeline__dot"></div>
-
-                <div class="timeline__content">
-                  <h3>QA Studio — Инженер по тестированию</h3>
-
-                  <p>
-                    Прошел курс по ручному тестированию,
-                    тест-дизайну и работе с современной QA-инфраструктурой.
-                  </p>
-
-                  <span>2025 — настоящее время</span>
-                </div>
-              </div>
-
-              <div class="timeline__item">
-                <div class="timeline__dot"></div>
-
-                <div class="timeline__content">
-                  <h3>API Testing & Postman</h3>
-
-                  <p>
-                    Тестирование REST и SOAP API,
-                    работа с коллекциями, переменными,
-                    моками и автотестами в Postman.
-                  </p>
-
-                  <span>Postman · REST · SOAP · Mock Server</span>
-                </div>
-              </div>
-
-              <div class="timeline__item">
-                <div class="timeline__dot"></div>
-
-                <div class="timeline__content">
-                  <h3>Databases & Logs</h3>
-
-                  <p>
-                    Написание SQL/NoSQL запросов,
-                    работа с PostgreSQL и MongoDB,
-                    просмотр логов через ssh и docker logs.
-                  </p>
-
-                  <span>PostgreSQL · MongoDB · SSH · Docker</span>
-                </div>
-              </div>
-
-              <div class="timeline__item">
-                <div class="timeline__dot"></div>
-
-                <div class="timeline__content">
-                  <h3>CI/CD & Automation</h3>
-
-                  <p>
-                    Базовая настройка GitHub Actions,
-                    работа с Cypress и Pytest,
-                    написание автотестов на JavaScript и Python.
-                  </p>
-
-                  <span>Cypress · Pytest · GitHub Actions</span>
-                </div>
-              </div>
-
-              <div class="timeline__item">
-                <div class="timeline__dot"></div>
-
-                <div class="timeline__content">
-                  <h3>Mobile & Microservices Testing</h3>
-
-                  <p>
-                    Тестирование mobile-приложений,
-                    push-уведомлений, диплинков и debug-сборок.
-                    Практика работы с Kafka и микросервисной архитектурой.
-                  </p>
-
-                  <span>Firebase · Kafka · Mobile QA</span>
-                </div>
-              </div>
-
-            </div>
-          </section>
-        </section>
-
-        <section id="projects" class="projects reveal">
-          <h2 class="links__header">Projects</h2>
-
-          <div class="projects__grid">
-
-            <div class="project-card">
-              <h3 class="project-card__title">API Testing Practice</h3>
-
-              <p class="project-card__description">
-                Практика тестирования REST API через Postman,
-                работа с коллекциями, статус-кодами и JSON.
-              </p>
-
-              <span class="project-card__stack">
-                Postman · API · JSON
-              </span>
-            </div>
-
-            <div class="project-card">
-              <h3 class="project-card__title">Bug Reports</h3>
-
-              <p class="project-card__description">
-                Создание баг-репортов, чек-листов и тест-кейсов
-                для веб-приложений.
-              </p>
-
-              <span class="project-card__stack">
-                Jira · QA · Testing
-              </span>
-            </div>
-
-            <div class="project-card">
-              <h3 class="project-card__title">Frontend Practice</h3>
-
-              <p class="project-card__description">
-                Изучение HTML/CSS и создание адаптивных
-                интерфейсов и portfolio-сайтов.
-              </p>
-
-              <span class="project-card__stack">
-                HTML · CSS · UI
-              </span>
-            </div>
-
-            <div class="project-card">
-              <h3 class="project-card__title">Log Analysis</h3>
-
-              <p class="project-card__description">
-                Анализ логов приложений: поиск ошибок, работа с DevTools Console,
-                изучение network-запросов и серверных ответов.
-              </p>
-
-              <span class="project-card__stack">
-                Logs · DevTools · Debugging · API
-              </span>
-            </div>
-
-          </div>
-        </section>
-
-      </main>
-      <footer class="footer animate delay-5">
-        <p class="footer__text">
-          © 2026 Эдуард Дрягин · QA Engineer
+  <!-- PROJECTS -->
+  <section id="projects" class="projects reveal">
+    <h2 class="links__header">Projects</h2>
+    <div class="projects__grid">
+      <div class="project-card">
+        <h3 class="project-card__title">Сайт-визитка</h3>
+        <p class="project-card__description">
+          Этот сайт. Свёрстан вручную на чистом HTML и CSS, без фреймворков.
         </p>
-      </footer>
-      <script type="text/javascript" src="js.js"></script>
-    </body>
-    </html>
+        <div class="project-card__stack">HTML · CSS · JS</div>
+      </div>
+      <div class="project-card">
+        <h3 class="project-card__title">API Autotests</h3>
+        <p class="project-card__description">
+          Автотесты REST API на Python + requests с использованием Pytest.
+        </p>
+        <div class="project-card__stack">Python · Pytest · Requests</div>
+      </div>
+      <div class="project-card">
+        <h3 class="project-card__title">UI Autotests</h3>
+        <p class="project-card__description">
+          UI-автотесты на JavaScript с использованием Cypress.
+        </p>
+        <div class="project-card__stack">JavaScript · Cypress</div>
+      </div>
+      <div class="project-card">
+        <h3 class="project-card__title">Python Bot</h3>
+        <p class="project-card__description">
+          Telegram-бот для генерации тестовых банковских карт.
+        </p>
+        <div class="project-card__stack">Python · Telegram API</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section id="stack" class="stack-section reveal">
+    <h2 class="links__header">Tech Stack</h2>
+    <div class="stack">
+      <div class="stack__item">Postman</div>
+      <div class="stack__item">Swagger</div>
+      <div class="stack__item">REST API</div>
+      <div class="stack__item">SOAP</div>
+      <div class="stack__item">SQL</div>
+      <div class="stack__item">PostgreSQL</div>
+      <div class="stack__item">MongoDB</div>
+      <div class="stack__item">Cypress</div>
+      <div class="stack__item">Pytest</div>
+      <div class="stack__item">JavaScript</div>
+      <div class="stack__item">Python</div>
+      <div class="stack__item">Git</div>
+      <div class="stack__item">GitHub Actions</div>
+      <div class="stack__item">Docker</div>
+      <div class="stack__item">Kafka</div>
+      <div class="stack__item">Kibana</div>
+      <div class="stack__item">Sentry</div>
+      <div class="stack__item">Grafana</div>
+      <div class="stack__item">Charles Proxy</div>
+      <div class="stack__item">DevTools</div>
+      <div class="stack__item">Linux</div>
+      <div class="stack__item">Test IT</div>
+      <div class="stack__item">Yandex Tracker</div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section id="contacts" class="links reveal">
+    <h2 class="links__header">Contact</h2>
+    <ul class="links__container">
+      <li class="links__link">
+        <p class="links__title">Telegram</p>
+        <a class="linsk__link" href="https://t.me/Edward_what">@Edward_what</a>
+      </li>
+      <li class="links__link">
+        <p class="links__title">Email</p>
+        <a class="linsk__link" href="mailto:edik.drygin@gmail.com">edik.drygin@gmail.com</a>
+      </li>
+      <li class="links__link">
+        <p class="links__title">GitHub</p>
+        <a class="linsk__link" href="https://github.com/DiKi-2707">github.com/DiKi-2707</a>
+      </li>
+      <li class="links__link">
+        <p class="links__title">VK</p>
+        <a class="linsk__link" href="https://vk.com/e.dryagin">e.dryagin</a>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p class="footer__text">© 2026 Эдуард Дрягин · QA Engineer</p>
+  </footer>
+
+  <script src="js.js"></script>
+</body>
+
+</html>
